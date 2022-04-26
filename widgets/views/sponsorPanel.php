@@ -10,14 +10,14 @@
 
 <?php if ( ! empty($mySponsor) ) : ?>
         <div class="panel-body">
-            My sponsor is<br>
+            Invited by<br>
 <?= $mySponsor ?>
         </div>
 <?php endif; ?>
 
 <?php if ( ! empty($iSponsor) ) : ?>
         <div class="panel-body">
-            I sponsor these...<br>
+            I invited...<br>
 <?= $iSponsor ?>
         </div>
 <?php endif; ?>
